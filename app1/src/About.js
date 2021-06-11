@@ -10,13 +10,17 @@ function About() {
             <p>
                 <span className="app1">App1</span> is an independently
                 maintained frontend application. It's a React app, independently
-                hosted <a href="http://localhost:3001/app1">here</a>.
+                hosted at{" "}
+                <a href="http://localhost:3001/app1">
+                    http://localhost:3001/app1
+                </a>
+                .
             </p>
             <p>
                 <span className="app1">App1</span> is also a integrated into the
                 microfrontend container{" "}
-                <span className="base-app">Base App</span>, hosted{" "}
-                <a href="http://localhost:3000">here</a>.
+                <span className="base-app">Base App</span>, at{" "}
+                <a href="http://localhost:3000">http://localhost:3000/app1</a>.
             </p>
         </div>
     );

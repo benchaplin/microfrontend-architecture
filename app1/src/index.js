@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import "./index.css";
 import App from "./App";
+import "./index.css";
 
 window.renderApp1 = (containerId, history) => {
     ReactDOM.render(
@@ -11,7 +11,6 @@ window.renderApp1 = (containerId, history) => {
 };
 
 window.unmountApp1 = containerId => {
-    console.log(document);
     ReactDOM.unmountComponentAtNode(document.getElementById(containerId));
 };
 

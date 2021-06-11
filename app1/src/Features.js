@@ -26,9 +26,9 @@ function Features() {
                 <li>
                     <span className="app1">App1</span> is independently hosted
                     at{" "}
-                    <Link to="http://localhost:3001/app1">
+                    <a href="http://localhost:3001/app1">
                         http://localhost:3001/app1
-                    </Link>
+                    </a>
                     . That means:
                     <ul>
                         <li>
@@ -39,9 +39,9 @@ function Features() {
                         <li>
                             <span className="app1">App1</span> can be integrated
                             into the Base App at runtime (see{" "}
-                            <Link to="http://localhost:3000/app1">
+                            <a href="http://localhost:3000/app1">
                                 http://localhost:3000/app1
-                            </Link>
+                            </a>
                             )
                         </li>
                     </ul>

@@ -12,13 +12,6 @@ code {
         monospace;
 }
 
-.base-app {
-    color: rgb(30, 20, 46);
-    background-color: rgb(202, 206, 219);
-    padding: 3px 5px;
-    border-radius: 5px;
-}
-
 .app1 {
     color: rgb(58, 26, 26);
     background-color: rgb(231, 224, 213);

@@ -5,8 +5,7 @@
     "main.js.map": "/static/js/main.js.map",
     "index.html": "/index.html",
     "static/css/main.css.map": "/static/css/main.css.map",
-    "static/js/main.js.LICENSE.txt": "/static/js/main.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/static/media/logo.6ce24c58.svg"
+    "static/js/main.js.LICENSE.txt": "/static/js/main.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/css/main.css",

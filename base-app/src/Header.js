@@ -5,7 +5,7 @@ function Header() {
     return (
         <div>
             <nav
-                className="navbar navbar-expand-lg navbar-light"
+                className="navbar navbar-expand-sm navbar-light"
                 style={{ backgroundColor: "rgb(222, 226, 229)" }}
             >
                 <Link className="navbar-brand" to="/">

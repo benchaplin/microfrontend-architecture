@@ -24,7 +24,7 @@ function App({ history = defaultHistory }) {
                 </Route>
                 <Route path="/app2">
                     <MicroFrontend
-                        name="app2"
+                        name="App2"
                         host="http://localhost:3002"
                         history={history}
                     />
