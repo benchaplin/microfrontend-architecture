@@ -10,7 +10,6 @@ class MicroFrontend extends React.Component {
             return;
         }
 
-        console.log("pre fetch", window);
         fetch(`${host}/asset-manifest.json`)
             .then(res => res.json())
             .then(manifest => {
@@ -21,7 +20,6 @@ class MicroFrontend extends React.Component {
                 script.onload = this.renderMicroFrontend;
                 document.head.appendChild(script);
             });
-        console.log("post fetch", window);
     }
 
     componentWillUnmount() {
@@ -31,7 +29,6 @@ class MicroFrontend extends React.Component {
 
     renderMicroFrontend = () => {
         const { name, window, history } = this.props;
-        console.log("renderMicroFrontend", window);
         window[`render${name}`](`${name}-container`, history);
     };
 

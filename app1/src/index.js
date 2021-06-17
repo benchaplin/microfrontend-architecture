@@ -3,6 +3,10 @@ import ReactDOM from "react-dom";
 import App from "./App";
 import "./index.css";
 
+if (!document.getElementById("App1-container")) {
+    ReactDOM.render(<App />, document.getElementById("root"));
+}
+
 window.renderApp1 = (containerId, history) => {
     ReactDOM.render(
         <App history={history} />,
@@ -13,7 +17,3 @@ window.renderApp1 = (containerId, history) => {
 window.unmountApp1 = containerId => {
     ReactDOM.unmountComponentAtNode(document.getElementById(containerId));
 };
-
-if (!document.getElementById("App1-container")) {
-    ReactDOM.render(<App />, document.getElementById("root"));
-}
