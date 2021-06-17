@@ -1,13 +1,10 @@
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import { createBrowserHistory } from "history";
 import Header from "./Header";
 import App1 from "./App1";
 import About from "./About";
 import Features from "./Features";
 
-const defaultHistory = createBrowserHistory();
-
-function App({ history = defaultHistory }) {
+function App() {
     return (
         <Router>
             <Header />
