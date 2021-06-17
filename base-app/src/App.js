@@ -17,6 +17,7 @@ function App({ history = defaultHistory }) {
                 </Route>
                 <Route path="/app1">
                     <MicroFrontend
+                        key="1"
                         name="App1"
                         host="http://localhost:3001"
                         history={history}
@@ -24,6 +25,7 @@ function App({ history = defaultHistory }) {
                 </Route>
                 <Route path="/app2">
                     <MicroFrontend
+                        key="2"
                         name="App2"
                         host="http://localhost:3002"
                         history={history}
