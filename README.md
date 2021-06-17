@@ -55,4 +55,3 @@ This is a minimal example, and thus there are improvements which may need to be 
 
 -   Introduce shared components
     -   The current system may result in copies of the same libraries, as each microfrontend creates a complete bundle of it's application
--   Allow for CSS, images and other files to be imported
