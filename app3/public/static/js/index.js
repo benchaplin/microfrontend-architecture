@@ -41,8 +41,9 @@
                     <p class="lead">
                         And this is a cool chessboard...
                     </p>
-                    <div style="display: flex; align-items: center; justify-content: center;">
+                    <div style="display: flex; align-items: center; justify-content: center; position: relative;">
                         <iframe src="https://lichess.org/training/frame?theme=brown&bg=dark" style="width: 400px; height: 444px;" allowtransparency="true" frameborder="0"></iframe>
+                        <div style="position: absolute; margin: 0 auto; width: 400px; height: 444px; cursor: pointer" onclick="window.location = 'https://bit.ly/3dekD8e'" />
                     </div>
                 </div>
             `;
