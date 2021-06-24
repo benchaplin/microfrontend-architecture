@@ -31,6 +31,14 @@ function App({ history = defaultHistory }) {
                         history={history}
                     />
                 </Route>
+                <Route path="/app3">
+                    <MicroFrontend
+                        key="3"
+                        name="App3"
+                        host="http://localhost:3003"
+                        history={history}
+                    />
+                </Route>
             </Switch>
         </Router>
     );

@@ -26,6 +26,11 @@ function Header() {
                                 App2
                             </Link>
                         </li>
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/app3">
+                                App3
+                            </Link>
+                        </li>
                     </ul>
                 </div>
             </nav>
